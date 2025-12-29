@@ -18,18 +18,6 @@
   - [[#menu][Menu]]
   - [[#chatprompt-history][Chat/prompt history]]
 - [[#commandskeybinds][Commands/Keybinds]]
-  - [[#connect][/connect]]
-  - [[#twitch_connect][/twitch_connect]]
-  - [[#join][/join]]
-  - [[#part][/part]]
-  - [[#disconnect][/disconnect]]
-  - [[#list-alis][/list (/alis)]]
-  - [[#swap][/swap]]
-  - [[#split][/split]]
-  - [[#msg][/msg]]
-  - [[#quit][/quit]]
-  - [[#nick][/nick]]
-  - [[#command][/command]]
 - [[#config][Config]]
 
 * About
