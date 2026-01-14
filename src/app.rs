@@ -116,7 +116,7 @@ impl App {
 
         config::read_theme(self);
         config::read_config(self);
-        config::read_autojoin(self, &net_tx).await;
+        //config::read_autojoin(self, &net_tx).await;
 
         // Spawn input handler
         tokio::spawn(event::input_event_loop(input_tx));
