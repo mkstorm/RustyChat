@@ -74,7 +74,7 @@ It is also possible to send /msg nick message to start a private conversation yo
 The config file has theme options for text, foreground, background and more.
 
 ** Autoconnect
-It is also possible in the config to set servers and channels to autoconnect on application launch.
+It is also possible in the config to set servers and channels to autoconnect on command.
 
 ** Twitch Chat connection
 If Twitch nick and oauth token is present in the config, you can connect to the twitch chat servers and join channels to chat.
@@ -147,6 +147,10 @@ to quit the application
 - /nick
 /nick 'nickname'
 To send a nick change to current server.
+
+- '/load'
+/load
+to load autojoin channels and connect (from config)
 
 - /'command'
 /'command'
