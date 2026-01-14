@@ -489,6 +489,9 @@ pub async fn handle_input(app: &mut App, ev: AppEvent, net_tx: &tokio::sync::mps
                     s if s.to_uppercase().starts_with("/QUIT") => {
                         app.quit();
                     }
+                    s if s.to_uppercase() == "/LOAD" => {
+                        config::read_autojoin(app, &net_tx).await;
+                    }
                     s if s.to_uppercase().starts_with("/DISCONNECT ") => {
                         let server_id = &line[12..];
                         if app.server_list.contains_key(server_id) {
