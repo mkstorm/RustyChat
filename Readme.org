@@ -99,7 +99,7 @@ In the top bar there is a Menu for Help, User and channel overview
 [[/Images/menu.png]]
 
 ** Chat/prompt history
-Use PgUp and Pgdown to scroll chat history, 500 lines are saved.
+Use PgUp and Pgdown to scroll chat history, 500 lines are saved, though they are per instance and is not persistent.
 Use Up and Down to scroll prompt history.
 
 * Commands/Keybinds
